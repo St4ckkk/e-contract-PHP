@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'E-Contracts',
+    'site_title' => 'ContractLend',
 ];

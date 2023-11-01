@@ -35,7 +35,7 @@
                 </div>
                 <div class="form-group">
                 <label for="due_date">{{ trans('cruds.contract.fields.due_date') }}</label>
-                <input class="form-control date {{ $errors->has('due_date') ? 'is-invalid' : '' }}" type="text" name="due_date" id="due_date" value="{{ old('due_date', $contract->due_date) }}">
+                <input class="form-control date {{ $errors->has('due_date') ? 'is-invalid' : '' }}" type="text" name="due_date" id="due_date" value="{{ old('due_date', '') }}">
                 @if($errors->has('due_date'))
                     <div class="invalid-feedback">
                         {{ $errors->first('due_date') }}
